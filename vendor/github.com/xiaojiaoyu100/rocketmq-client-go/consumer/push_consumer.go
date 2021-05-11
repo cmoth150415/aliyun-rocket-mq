@@ -28,11 +28,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/cmoth150415/rocketmq-client-go/internal"
-	"github.com/cmoth150415/rocketmq-client-go/internal/remote"
-	"github.com/cmoth150415/rocketmq-client-go/internal/utils"
-	"github.com/cmoth150415/rocketmq-client-go/primitive"
-	"github.com/cmoth150415/rocketmq-client-go/rlog"
+	"github.com/cmoth150415/aliyun-rocket-mq/internal"
+	"github.com/cmoth150415/aliyun-rocket-mq/internal/remote"
+	"github.com/cmoth150415/aliyun-rocket-mq/internal/utils"
+	"github.com/cmoth150415/aliyun-rocket-mq/primitive"
+	"github.com/cmoth150415/aliyun-rocket-mq/rlog"
 )
 
 // In most scenarios, this is the mostly recommended usage to consume messages.

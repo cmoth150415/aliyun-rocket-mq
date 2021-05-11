@@ -8,9 +8,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cmoth150415/rocketmq-client-go"
-	"github.com/cmoth150415/rocketmq-client-go/consumer"
-	"github.com/cmoth150415/rocketmq-client-go/primitive"
+	"github.com/cmoth150415/aliyun-rocket-mq/consumer"
+	"github.com/cmoth150415/aliyun-rocket-mq/primitive"
 	"github.com/sirupsen/logrus"
 
 	"github.com/cmoth150415/aliyun-rocket-mq/log"

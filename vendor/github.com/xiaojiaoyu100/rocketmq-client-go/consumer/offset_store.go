@@ -27,11 +27,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cmoth150415/rocketmq-client-go/internal"
-	"github.com/cmoth150415/rocketmq-client-go/internal/remote"
-	"github.com/cmoth150415/rocketmq-client-go/internal/utils"
-	"github.com/cmoth150415/rocketmq-client-go/primitive"
-	"github.com/cmoth150415/rocketmq-client-go/rlog"
+	"github.com/cmoth150415/aliyun-rocket-mq/internal"
+	"github.com/cmoth150415/aliyun-rocket-mq/internal/remote"
+	"github.com/cmoth150415/aliyun-rocket-mq/internal/utils"
+	"github.com/cmoth150415/aliyun-rocket-mq/primitive"
+	"github.com/cmoth150415/aliyun-rocket-mq/rlog"
 )
 
 type readType int
@@ -52,7 +52,7 @@ func init() {
 	}
 }
 
-//go:generate mockgen -source offset_store.go -destination mock_offset_store.go -self_package github.com/cmoth150415/rocketmq-client-go/consumer  --package consumer OffsetStore
+//go:generate mockgen -source offset_store.go -destination mock_offset_store.go -self_package github.com/cmoth150415/aliyun-rocket-mq/consumer  --package consumer OffsetStore
 type OffsetStore interface {
 	persist(mqs []*primitive.MessageQueue)
 	remove(mq *primitive.MessageQueue)

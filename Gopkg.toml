@@ -34,7 +34,7 @@
   version = "1.4.2"
 
 [[constraint]]
-  name = "github.com/cmoth150415/rocketmq-client-go"
+  name = "github.com/cmoth150415/aliyun-rocket-mq"
   version = "3.0.7"
 
 [[constraint]]

@@ -26,9 +26,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cmoth150415/rocketmq-client-go/primitive"
+	"github.com/cmoth150415/aliyun-rocket-mq/primitive"
 
-	"github.com/cmoth150415/rocketmq-client-go/rlog"
+	"github.com/cmoth150415/aliyun-rocket-mq/rlog"
 )
 
 type ClientRequestFunc func(*RemotingCommand, net.Addr) *RemotingCommand
@@ -37,7 +37,7 @@ type TcpOption struct {
 	// TODO
 }
 
-//go:generate mockgen -source remote_client.go -destination mock_remote_client.go -self_package github.com/cmoth150415/rocketmq-client-go/internal/remote  --package remote RemotingClient
+//go:generate mockgen -source remote_client.go -destination mock_remote_client.go -self_package github.com/cmoth150415/aliyun-rocket-mq/internal/remote  --package remote RemotingClient
 type RemotingClient interface {
 	RegisterRequestFunc(code int16, f ClientRequestFunc)
 	RegisterInterceptor(interceptors ...primitive.Interceptor)
@@ -213,7 +213,7 @@ func (c *remotingClient) processCMD(cmd *RemotingCommand, r *tcpConnWrapper) {
 		f := c.processors[cmd.Code]
 		if f != nil {
 			// single goroutine will be deadlock
-			// TODO: optimize with goroutine pool, https://github.com/apache/rocketmq-client-go/issues/307
+			// TODO: optimize with goroutine pool, https://github.com/apache/aliyun-rocket-mq/issues/307
 			go func() {
 				res := f(cmd, r.RemoteAddr())
 				if res != nil {

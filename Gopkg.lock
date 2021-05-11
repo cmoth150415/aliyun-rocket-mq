@@ -126,7 +126,7 @@
 
 [[projects]]
   digest = "1:f960aa66ba6c26c75bfd1915b57be4c3032c311ef5185cda41fd2e60d6fd8ee7"
-  name = "github.com/cmoth150415/rocketmq-client-go"
+  name = "github.com/cmoth150415/aliyun-rocket-mq"
   packages = [
     ".",
     "consumer",
@@ -212,10 +212,10 @@
     "github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests",
     "github.com/aliyun/alibaba-cloud-sdk-go/services/ons",
     "github.com/sirupsen/logrus",
-    "github.com/cmoth150415/rocketmq-client-go",
-    "github.com/cmoth150415/rocketmq-client-go/consumer",
-    "github.com/cmoth150415/rocketmq-client-go/primitive",
-    "github.com/cmoth150415/rocketmq-client-go/producer",
+    "github.com/cmoth150415/aliyun-rocket-mq",
+    "github.com/cmoth150415/aliyun-rocket-mq/consumer",
+    "github.com/cmoth150415/aliyun-rocket-mq/primitive",
+    "github.com/cmoth150415/aliyun-rocket-mq/producer",
     "github.com/cmoth150415/windlord/alirmq",
   ]
   solver-name = "gps-cdcl"

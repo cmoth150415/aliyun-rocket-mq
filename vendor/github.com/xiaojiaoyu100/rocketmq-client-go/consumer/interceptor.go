@@ -21,9 +21,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/cmoth150415/rocketmq-client-go/internal"
-	"github.com/cmoth150415/rocketmq-client-go/internal/utils"
-	"github.com/cmoth150415/rocketmq-client-go/primitive"
+	"github.com/cmoth150415/aliyun-rocket-mq/internal"
+	"github.com/cmoth150415/aliyun-rocket-mq/internal/utils"
+	"github.com/cmoth150415/aliyun-rocket-mq/primitive"
 )
 
 // WithTrace support rocketmq trace: https://github.com/apache/rocketmq/wiki/RIP-6-Message-Trace.

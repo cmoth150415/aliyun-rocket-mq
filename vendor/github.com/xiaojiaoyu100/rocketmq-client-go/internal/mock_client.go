@@ -27,8 +27,8 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/cmoth150415/rocketmq-client-go/internal/remote"
-	"github.com/cmoth150415/rocketmq-client-go/primitive"
+	"github.com/cmoth150415/aliyun-rocket-mq/internal/remote"
+	"github.com/cmoth150415/aliyun-rocket-mq/primitive"
 )
 
 // MockInnerProducer is a mock of InnerProducer interface

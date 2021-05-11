@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/cmoth150415/rocketmq-client-go/internal"
-	"github.com/cmoth150415/rocketmq-client-go/primitive"
-	"github.com/cmoth150415/rocketmq-client-go/rlog"
+	"github.com/cmoth150415/aliyun-rocket-mq/internal"
+	"github.com/cmoth150415/aliyun-rocket-mq/primitive"
+	"github.com/cmoth150415/aliyun-rocket-mq/rlog"
 	"github.com/emirpasic/gods/maps/treemap"
 	"github.com/emirpasic/gods/utils"
 	gods_util "github.com/emirpasic/gods/utils"

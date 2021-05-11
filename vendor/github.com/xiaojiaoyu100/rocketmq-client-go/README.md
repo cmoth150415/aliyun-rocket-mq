@@ -1,7 +1,7 @@
 ## RocketMQ Client Go
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![TravisCI](https://travis-ci.org/apache/rocketmq-client-go.svg)](https://travis-ci.org/apache/rocketmq-client-go)
-[![Coverage](https://codecov.io/gh/apache/rocketmq-client-go/branch/native/graph/badge.svg)](https://codecov.io/gh/apache/rocketmq-client-go/branch/native)
+[![TravisCI](https://travis-ci.org/apache/aliyun-rocket-mq.svg)](https://travis-ci.org/apache/aliyun-rocket-mq)
+[![Coverage](https://codecov.io/gh/apache/aliyun-rocket-mq/branch/native/graph/badge.svg)](https://codecov.io/gh/apache/aliyun-rocket-mq/branch/native)
 
 The RocketMQ Client in pure go, the project is developing, **there is no any guarantee in production environment**. in next versions,
 we will do our best to improve reliability, stability, usability and performance. the API may be changed, and more features will be added.
@@ -9,8 +9,8 @@ there are many works need to continue in this project, like unit test, integrati
 optimization, documents, etc. so, any contribution is very welcome. if you want do something, please browse issue list and select one,
 or create a new issue.
 
-- [2.0.0 Production Ready Road map](https://github.com/cmoth150415/rocketmq-client-go/issues/57)
-- [The alpha1 feature list](https://github.com/cmoth150415/rocketmq-client-go/issues/54)
+- [2.0.0 Production Ready Road map](https://github.com/cmoth150415/aliyun-rocket-mq/issues/57)
+- [The alpha1 feature list](https://github.com/cmoth150415/aliyun-rocket-mq/issues/54)
 
 ----------
 ## Features
@@ -33,7 +33,7 @@ in 2.0.0-alpha1, support:
 * Mailing Lists: <https://rocketmq.apache.org/about/contact/>
 * Home: <https://rocketmq.apache.org>
 * Docs: <https://rocketmq.apache.org/docs/quick-start/>
-* Issues: <https://github.com/cmoth150415/rocketmq-client-go/issues>
+* Issues: <https://github.com/cmoth150415/aliyun-rocket-mq/issues>
 * Ask: <https://stackoverflow.com/questions/tagged/rocketmq>
 * Slack: <https://rocketmq-community.slack.com/>
  

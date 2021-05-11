@@ -20,7 +20,7 @@ package utils
 import (
 	"github.com/pkg/errors"
 
-	"github.com/cmoth150415/rocketmq-client-go/rlog"
+	"github.com/cmoth150415/aliyun-rocket-mq/rlog"
 )
 
 var (

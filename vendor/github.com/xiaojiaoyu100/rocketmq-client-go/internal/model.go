@@ -24,9 +24,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cmoth150415/rocketmq-client-go/internal/utils"
-	"github.com/cmoth150415/rocketmq-client-go/primitive"
-	"github.com/cmoth150415/rocketmq-client-go/rlog"
+	"github.com/cmoth150415/aliyun-rocket-mq/internal/utils"
+	"github.com/cmoth150415/aliyun-rocket-mq/primitive"
+	"github.com/cmoth150415/aliyun-rocket-mq/rlog"
 )
 
 type FindBrokerResult struct {

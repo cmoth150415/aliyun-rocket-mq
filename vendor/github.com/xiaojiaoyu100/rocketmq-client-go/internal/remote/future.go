@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cmoth150415/rocketmq-client-go/internal/utils"
+	"github.com/cmoth150415/aliyun-rocket-mq/internal/utils"
 )
 
 // ResponseFuture

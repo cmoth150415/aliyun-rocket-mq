@@ -9,9 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cmoth150415/rocketmq-client-go"
-	"github.com/cmoth150415/rocketmq-client-go/primitive"
-	"github.com/cmoth150415/rocketmq-client-go/producer"
+	"github.com/cmoth150415/aliyun-rocket-mq/primitive"
+	"github.com/cmoth150415/aliyun-rocket-mq/producer"
 
 	"github.com/cmoth150415/aliyun-rocket-mq/log"
 )
